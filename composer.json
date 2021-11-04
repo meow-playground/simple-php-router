@@ -2,7 +2,13 @@
     "name": "may/attributes-test",
     "autoload": {
         "psr-4": {
-            "May\\AttributesTest\\": "src/"
+            "May\\AttributesTest\\": "src/",
+            "Meow\\": "Meow/src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Meow\\Tests\\": "Meow/tests/"
         }
     },
     "authors": [
@@ -12,6 +18,7 @@
         }
     ],
     "require": {
-        "php": "8.*"
+        "php": "8.*",
+        "nette/database": "^3.1"
     }
 }
